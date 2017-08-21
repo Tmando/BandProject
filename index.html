@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <!-- jQuery library -->
@@ -16,10 +16,21 @@
 
 }
 </style>
-<script src="link.js">
-</script>
+<script src="link.js"></script>
 </head>
-<body>
+<body onload="navBar()">
+  <script type="text/javascript">
+    $("#slideshow > div:gt(0)").hide();
+
+    setInterval(function() {
+      $('#slideshow > div:first')
+        .fadeOut(3000)
+        .next()
+        .fadeIn(3000)
+        .end()
+        .appendTo('#slideshow');
+    },  3000);
+  </script>
   <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <ul id="mainNavigation" class="nav navbar-nav">
@@ -27,6 +38,51 @@
     </ul>
   </div>
 </nav>
+
+  <div class="container" id="slideshow">
+   <div>
+     <img class="img-responsive" src="img/photo1.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo2.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo3.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo4.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo5.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo6.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo7.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo8.png">
+   </div>
+  </div>
+
+  <div class="container para1">
+    <p>Manche nennen es Wahnsinn, manche verrückt und einige unerreichbar. Wir nennen es Leidenschaft, die Musik einer der besten und magischsten Rockbands aller Zeiten, aufleben zu lassen.</p>
+<br>
+<p>
+So formierte sich eine Gruppe enthusiastischer Musiker, um zeitloser, magischer Musik Leben einzuhauchen, diese auf die Bühne zu bringen und mit viel Herzblut und musikalischem Können, hart am Original wiederzugeben.
+Mit Songs wie "Wish You Where Here" oder "Another Brick in the Wall" drehen wir die Uhren ein wenig zurück und nehmen das Publikum mit auf eine emotionale Reise durch die Songwelt von Pink Floyd ab 1970 bis zur Division Bell Ära die nicht weniger Reiz auf das Publikum und die Band ausübt.</p>
+<br>
+<p>
+Egal ob kleiner Club, Open Air oder große Halle: Wir sind bereit mit und für Euch das Floyd Universum an den Start zu bringen und jedem Besucher sein stimmungsvolles "floydianisches" Erlebnis zu bereiten.</p>
+<br>
+<p>
+Eine professionelle Licht und Multimedia Show mit Videoprojektionen auf Leinwand runden das
+Konzerterlebnis Floyd Division
+ab und sorgen neben dem Bombast-Sound für ein optisches Highlight
+
+</p>
+  </div>
 
 
 
