@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+#mainNavigation{
+  color:#09C;
+
+}
+</style>
+<script src="link.js">
+</script>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <ul id="mainNavigation" class="nav navbar-nav">
+
+    </ul>
+  </div>
+</nav>
+
+  <div class="container" id="slideshow">
+   <div>
+     <img class="img-responsive" src="http://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/grief-and-loss.jpg">
+   </div>
+   <div>
+     <img class="img-responsive" src="http://www.rd.com/wp-content/uploads/sites/2/2016/04/01-cat-wants-to-tell-you-laptop.jpg">
+   </div>
+  </div>
+  
+  <div class="container para1">
+    <p>Manche nennen es Wahnsinn, manche verrückt und einige unerreichbar. Wir nennen es Leidenschaft, die Musik einer der besten und magischsten Rockbands aller Zeiten, aufleben zu lassen.</p>
+<br>
+<p>
+So formierte sich eine Gruppe enthusiastischer Musiker, um zeitloser, magischer Musik Leben einzuhauchen, diese auf die Bühne zu bringen und mit viel Herzblut und musikalischem Können, hart am Original wiederzugeben.
+Mit Songs wie "Wish You Where Here" oder "Another Brick in the Wall" drehen wir die Uhren ein wenig zurück und nehmen das Publikum mit auf eine emotionale Reise durch die Songwelt von Pink Floyd ab 1970 bis zur Division Bell Ära die nicht weniger Reiz auf das Publikum und die Band ausübt.</p>
+<br>
+<p>
+Egal ob kleiner Club, Open Air oder große Halle: Wir sind bereit mit und für Euch das Floyd Universum an den Start zu bringen und jedem Besucher sein stimmungsvolles "floydianisches" Erlebnis zu bereiten.</p>
+<br>
+<p>
+Eine professionelle Licht und Multimedia Show mit Videoprojektionen auf Leinwand runden das 
+Konzerterlebnis Floyd Division 
+ab und sorgen neben dem Bombast-Sound für ein optisches Highlight
+
+</p>
+  </div>
+
+  <script type="text/javascript">
+    $("#slideshow > div:gt(0)").hide();
+
+    setInterval(function() { 
+      $('#slideshow > div:first')
+        .fadeOut(3000)
+        .next()
+        .fadeIn(3000)
+        .end()
+        .appendTo('#slideshow');
+    },  3000);
+  </script>
+
+</body>
+</html>
