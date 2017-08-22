@@ -54,7 +54,7 @@ body{
 	font-size:10pt;
 }
 .contactContainer{
-	padding-top: 5vw;
+	padding-top: 10vw;
 }
 .contactContainer h1{
 	color: #09C;
@@ -62,13 +62,35 @@ body{
 .contactContainer p{
 	color: white;
 }
+<<<<<<< HEAD
+.pressContainer{
+	padding-top: 10vh;
+}
+.pressContainer h1{
+	color: #09C;
+}
+.pressContainer p{
+	color:white;
+}
+.pressContainer .row{
+	margin-top: 5vh;
+}
+.photocontainer{
+	margin-top: 10vh;
+}
+=======
 
+>>>>>>> 1c93bc0dca81af93be0e6f474bf77eebce12f324
 .parallax {
     /* The image used */
     background-image: url("https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/936050_10152591970423689_6200100129290046888_n.jpg?oh=e107a2cfac54600435871b530c1f2407&oe=5A151002");
 
     /* Set a specific height */
+<<<<<<< HEAD
+    min-height: 600px;
+=======
     min-height: 600px; 
+>>>>>>> 1c93bc0dca81af93be0e6f474bf77eebce12f324
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
