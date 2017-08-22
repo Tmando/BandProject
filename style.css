@@ -62,3 +62,17 @@ body{
 .contactContainer p{
 	color: white;
 }
+
+.parallax {
+    /* The image used */
+    background-image: url("https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/936050_10152591970423689_6200100129290046888_n.jpg?oh=e107a2cfac54600435871b530c1f2407&oe=5A151002");
+
+    /* Set a specific height */
+    min-height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
