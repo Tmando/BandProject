@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<style>
-#mainNavigation{
-  color:#09C;
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-}
-</style>
-<script src="link.js">
-</script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    #mainNavigation {
+      color: #09C;
+    }
+  </style>
+  <script src="link.js">
+  </script>
 </head>
-<body>
+<div id="fb-root"></div>
+<script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.10&appId=1526442847402821";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<body onload="navBar()">
   <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
-    <ul id="mainNavigation" class="nav navbar-nav">
-
-    </ul>
-  </div>
-</nav>
-
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <ul id="mainNavigation" class="nav navbar-nav">
+          </ul>
+      </div>
+    </div>
+    </div>
+  </nav>
+  <div class="container fbContainer">
+    <div class="row">
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffloyddivision%2F&tabs=timeline&width=800&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1526442847402821"
+      width="800" height="600" style="border:none;overflow:hidden;._2pi4_36iq_4lk2_3xre_50sk{display:none;}" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div></div>
 
 
 </body>
+
 </html>

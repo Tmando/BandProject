@@ -4,20 +4,20 @@
 	color: #09C;
 }
 
-#slideshow { 
-    margin: 50px auto; 
-    position: relative; 
-    width: 900px; 
-    height: 900px; 
-    padding: 10px; 
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 900px;
+    height: 400px;
+    padding: 10px;
 }
 
-#slideshow > div { 
-    position: absolute; 
-    top: 100px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
+#slideshow > div {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
 }
 
 body{
@@ -27,4 +27,16 @@ body{
 	color: white;
 	font-family: 'Merienda', cursive;
 
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: #09C !important;
+}
+.navbar-inverse .navbar-nav>li{
+	text-align: center !important;
+}
+.fbContainer{
+	padding-top: 5%;
+}
+._2pi4_36iq_4lk2_3xre_50sk{ 
+    display:none;
 }

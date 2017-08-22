@@ -4,18 +4,16 @@ var links = [
     {text:"News",link:"news.html"},
     {text:"Live",link:"live.html"},
     {text:"Media",link:"media.html"},
-    {text:"Gästebuch",link:"guestbook.html"},
+    {text:"Gästebuch",link:"Gästebuch.html"},
     {text:"Links",link:"links.html"},
     {text:"Presse",link:"presse.html"},
     {text:"Kontakt",link:"kontakt.html"}
   ];
-  tag = "";
-  for(var i=0;i<links.length;i++){
-    console.log(i);
-    tag += "<li><a href=\""+ links[i].link + "\">"+links[i].text + "</a></li>";
-
-
-  }
-  $( document ).ready(function() {
-    $("#mainNavigation").append(tag);
-  });
+var tag = "";
+for(var i=0;i<links.length;i++){
+  console.log(i);
+  tag += "<li><a href=\""+ links[i].link + "\">"+links[i].text + "</a></li>";
+}
+function navBar(){
+  $("#mainNavigation").append(tag);
+}
