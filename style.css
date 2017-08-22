@@ -3,7 +3,7 @@
 .nav1 li{
 	color: #09C;
 }
-
+/*
 #slideshow {
     margin: 50px auto;
     position: relative;
@@ -11,7 +11,11 @@
     height: 400px;
     padding: 10px;
 }
-
+*/
+.slideshowContainer{
+	padding-top: 5%;
+}
+/*
 #slideshow > div {
     position: absolute;
     top: 100px;
@@ -19,6 +23,7 @@
     right: 10px;
     bottom: 10px;
 }
+*/
 
 body{
 	background-color: #0C1115 !important;
@@ -37,6 +42,23 @@ body{
 .fbContainer{
 	padding-top: 5%;
 }
-._2pi4_36iq_4lk2_3xre_50sk{ 
+._2pi4_36iq_4lk2_3xre_50sk{
     display:none;
+}
+#indexSlideShow{
+	height:30vh;
+	background-repeat: no-repeat;
+}
+.lyrics{
+	text-align: center;
+	font-size:10pt;
+}
+.contactContainer{
+	padding-top: 5vw;
+}
+.contactContainer h1{
+	color: #09C;
+}
+.contactContainer p{
+	color: white;
 }
