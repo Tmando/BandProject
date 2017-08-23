@@ -4,7 +4,6 @@ var links = [
     {text:"News",link:"news.html"},
     {text:"Live",link:"live.html"},
     {text:"Media",link:"video.html"},
-    {text:"Gästebuch",link:"Gästebuch.html"},
     {text:"Links",link:"links.html"},
     {text:"Presse",link:"presse.html"},
     {text:"Kontakt",link:"kontakt.html"}
@@ -43,9 +42,10 @@ for(var i=0;i<links.length;i++){
     }
 }
 tag += "<li><a class=\"navBarLinks\" href=\"https://www.facebook.com/floyddivision\"><i class=\"fa fa-facebook-official\" style=\"font-size:24px\"></i></a></li>";
-tag += "<li><a class=\"navBarLinks\" href=\"https://www.youtube.com/user/viennafloyd\"<i class=\"fa fa-youtube\" style=\"font-size:24px\"></i></li>";
+tag += "<li><a class=\"navBarLinks\" href=\"https://www.youtube.com/user/viennafloyd\"><i class=\"fa fa-youtube\" style=\"font-size:24px\"></i></a></li>";
+/* tag += "<li><a href=\"https://www.youtube.com/user/viennafloyd\"<i class=\"fa fa-youtube-play\" style=\"font-size:10px; color:red\"></i></li>"; */
 hamburgerMenu += "<li><a href=\"https://www.facebook.com/floyddivision\"><i class=\"fa fa-facebook-official\" style=\"font-size:24px\"></i></a></li>";
-hamburgerMenu += "<li><a href=\"https://www.youtube.com/user/viennafloyd\"<i class=\"fa fa-youtube\" style=\"font-size:24px\"></i></li>";
+hamburgerMenu += "<li><a href=\"https://www.youtube.com/user/viennafloyd\"<i class=\"fa fa-youtube\" style=\"font-size:24px; color:red\"></i></li>";
 hamburgerMenu += "</div>";
 function navBar(){
   $("#mainNavigation").append(tag);

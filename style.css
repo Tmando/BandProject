@@ -78,6 +78,9 @@ body{
 .photocontainer{
 	margin-top: 10vh;
 }
+.photocontainer p{
+	color:white;
+}
 
 
 .parallax {
