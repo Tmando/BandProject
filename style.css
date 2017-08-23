@@ -62,7 +62,7 @@ body{
 .contactContainer p{
 	color: white;
 }
-<<<<<<< HEAD
+
 .pressContainer{
 	padding-top: 10vh;
 }
@@ -78,19 +78,16 @@ body{
 .photocontainer{
 	margin-top: 10vh;
 }
-=======
 
->>>>>>> 1c93bc0dca81af93be0e6f474bf77eebce12f324
+
 .parallax {
     /* The image used */
     background-image: url("https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/936050_10152591970423689_6200100129290046888_n.jpg?oh=e107a2cfac54600435871b530c1f2407&oe=5A151002");
 
     /* Set a specific height */
-<<<<<<< HEAD
     min-height: 600px;
-=======
-    min-height: 600px; 
->>>>>>> 1c93bc0dca81af93be0e6f474bf77eebce12f324
+
+    min-height: 600px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -109,4 +106,22 @@ body{
 .links2{
     color: white;
     margin-top: 40px;
+}
+
+
+#videoContainerCol .row{
+
+margin-top: 30vh;
+
+}
+
+@media screen and (min-width:768px){
+	#hamburgerIcon{
+		display: none;
+	}
+}
+@media screen and (max-width:768px){
+	.navBarLinks{
+		display: none !important;
+	}
 }
