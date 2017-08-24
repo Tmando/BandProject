@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+#mainNavigation{
+  color:#09C;
+
+}
+</style>
+<script src="link.js"></script>
+</head>
+<body onload="navBar(),initSlideShow()">
+  <script src="slideshow.js">
+  <script type="text/javascript">
+    $("#slideshow > div:gt(0)").hide();
+
+    setInterval(function() {
+      $('#slideshow > div:first')
+        .fadeOut(3000)
+        .next()
+        .fadeIn(3000)
+        .end()
+        .appendTo('#slideshow');
+    },  3000);
+  </script>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+    <ul id="mainNavigation" class="nav navbar-nav">
+
+    </ul>
+  </div>
+</div>
+  </div>
+</nav>
+<div class="container slideshowContainer">
+  <div class="row">
+  <!--<div class="col-lg-8 col-lg-offset-2" id="indexSlideShow">
+  <style>.slideshowContainer { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .slideshowContainer iframe, .slideshowContainer object, .slideshowContainer embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>-->
+<div class="col-lg-12">
+<iframe width="100%" height="630" src='https://www.youtube.com/embed/PWWPjZ6OrUM?autoplay=1&showinfo=0&controls=0' frameborder='0' allowfullscreen></iframe>
+</div>
+    <!--<button onclick="buttonForward()">Forward</button>
+    <button onclick="buttonBackward()">Backward</button>-->
+  </div>
+  </div>
+</div>
+<!--
+  <div class="container" id="slideshow">
+   <div>
+     <img class="img-responsive" src="img/photo1.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo2.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo3.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo4.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo5.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo6.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo7.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo8.png">
+   </div>
+  </div>
+-->
+
+  <div class="container para1">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+    <p>Manche nennen es Wahnsinn, manche verrückt und einige unerreichbar. Wir nennen es Leidenschaft, die Musik einer der besten und magischsten Rockbands aller Zeiten, aufleben zu lassen.</p>
+<br>
+<p>
+So formierte sich eine Gruppe enthusiastischer Musiker, um zeitloser, magischer Musik Leben einzuhauchen, diese auf die Bühne zu bringen und mit viel Herzblut und musikalischem Können, hart am Original wiederzugeben.
+Mit Songs wie "Wish You Where Here" oder "Another Brick in the Wall" drehen wir die Uhren ein wenig zurück und nehmen das Publikum mit auf eine emotionale Reise durch die Songwelt von Pink Floyd ab 1970 bis zur Division Bell Ära die nicht weniger Reiz auf das Publikum und die Band ausübt.</p>
+<br>
+<p>
+Egal ob kleiner Club, Open Air oder große Halle: Wir sind bereit mit und für Euch das Floyd Universum an den Start zu bringen und jedem Besucher sein stimmungsvolles "floydianisches" Erlebnis zu bereiten.</p>
+<br>
+<p>
+Eine professionelle Licht und Multimedia Show mit Videoprojektionen auf Leinwand runden das
+Konzerterlebnis Floyd Division
+ab und sorgen neben dem Bombast-Sound für ein optisches Highlight
+
+</p>
+  </div>
+  <div class="col-lg-2 lyrics">
+<p>Floyd Division</p>
+<p>Programmauszug</p>
+
+<p>speak to me</p>
+<p>breathe</p>
+<p>time</p>
+<p>great gig in the sky</p>
+<p>money</p>
+<p>us and them</p>
+<p>any colour you like</p>
+<p>brain damage</p>
+<p>eclipsed</p>
+
+<p>in the flesh</p>
+<p>another brick in the wall</p>
+<p>mother</p>
+<p>comfortably numb</p>
+<p>hey you </p>
+<p>run like hell</p>
+
+<p>shine on you crazy d.</p>
+<p>wish you were here</p>
+
+<p>set the controls for the
+<p>heart of the sun</p>
+
+<p>one of these days</p>
+<p>echoes</p>
+<p>dogs</p>
+<p>sheep</p>
+
+<p>learning to fly</p>
+<p>coming back to life</p>
+<p>sorrow</p>
+<p>high hopes</p>
+<p>take it back</p>
+<p>keep talking</p>
+  <p>poles apart</p>
+<p>on the turning away</p>
+<p>great day for freedom</p>
+<p>marooned</p>
+<p>what do you want...</p>
+
+<p>red sky at night</p>
+
+  </div>
+</div>
+</div>
+
+
+</body>
+</html>
