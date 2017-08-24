@@ -31,6 +31,7 @@ body{
 .para1{
 	color: white;
 	font-family: 'Merienda', cursive;
+	font-size:15pt;
 
 }
 .navbar-inverse .navbar-nav>li>a{
@@ -102,7 +103,6 @@ body{
     margin-top: 90px;
     text-align: center;
     color: white;
-    border-bottom: solid black;
 
 }
 
@@ -141,4 +141,8 @@ margin-top: 30vh;
 }
 #facebookLive{
 	padding-top: 10vh;
+}
+#mainNavigation li{
+	margin-right: 1vw;
+	font-size:18pt;
 }
