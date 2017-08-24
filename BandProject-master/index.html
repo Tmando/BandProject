@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+    #mainNavigation {
+        color: #09C;
+    }
+    </style>
+    <script src="link.js"></script>
+</head>
+
+<body onload="navBar(),initSlideShow()">
+    <script src="slideshow.js">
+    < script type = "text/javascript" >
+        $("#slideshow > div:gt(0)").hide();
+
+    setInterval(function() {
+        $('#slideshow > div:first')
+            .fadeOut(3000)
+            .next()
+            .fadeIn(3000)
+            .end()
+            .appendTo('#slideshow');
+    }, 3000);
+    </script>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul id="mainNavigation" class="nav navbar-nav">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container slideshowContainer">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <iframe width="100%" height="630" src='https://www.youtube.com/embed/PWWPjZ6OrUM?autoplay=1&showinfo=0&controls=0&rel=0' frameborder='0' allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-2">
+            <h4 style="color: white; text-align: center">Floyd Division Newsletter</h4>
+                <p  style="color: white; text-align: center">Sende ein Mail mit e-mail Adresse an:</p>
+                <p  style="color: white; text-align: center"><a href="newsletter@floyddivision.at">newsletter@floyddivision.at</a></p>
+                <br>
+                <br>
+                <div>            
+                    <h4 style="color: red;">ANDREAS PUTZ</h4>
+                    <p  style="color: white; text-align: center">Audio Engineering </p>
+                    <p style="color: #09c; text-align: center"><a href="www.andreas-putz.com">www.andreas-putz.com</a></p>
+                </div>
+                <br>
+                <br>
+                <p style="font-size:1.5em; font-weight: 2.0em; color: white; text-align: center">Floyd Division</p>
+                <p style="color: #09C; text-align: center;">Programmauszug</p>
+                <br>
+                <p style="color: white; text-align: center;">speak to me
+                    <br> breathe
+                    <br> time
+                    <br> great gig in the sky
+                    <br> money
+                    <br> us and them
+                    <br> any colour you like
+                    <br> brain damage
+                    <br> eclipsed
+                    <br> in the flesh
+                    <br> another brick in the wall
+                    <br> mother
+                    <br> comfortably numb
+                    <br> hey you
+                    <br> run like hell
+                    <br> shine on you crazy d.
+                    <br> wish you were here
+                    <br> set the controls for the heart of the sun
+                    <br> one of these days
+                    <br> echoes
+                    <br> dogs
+                    <br> sheep
+                    <br> learning to fly
+                    <br> coming back to life
+                    <br> sorrow
+                    <br> high hopes
+                    <br> take it back
+                    <br> keep talking
+                    <br> on the turning away
+                    <br> poles apart
+                    <br> great day for freedom
+                    <br> marooned
+                    <br> what do you want...
+                    <br> red sky at night</p>
+            </div>
+
+            </div>
+            <div class="row para1">
+            <div class="col-lg-10">
+                <p>Manche nennen es Wahnsinn, manche verrückt und einige unerreichbar. Wir nennen es Leidenschaft, die Musik einer der besten und magischsten Rockbands aller Zeiten, aufleben zu lassen.</p>
+                <br>
+                <p>
+                    So formierte sich eine Gruppe enthusiastischer Musiker, um zeitloser, magischer Musik Leben einzuhauchen, diese auf die Bühne zu bringen und mit viel Herzblut und musikalischem Können, hart am Original wiederzugeben. Mit Songs wie "Wish You Where Here" oder "Another Brick in the Wall" drehen wir die Uhren ein wenig zurück und nehmen das Publikum mit auf eine emotionale Reise durch die Songwelt von Pink Floyd ab 1970 bis zur Division Bell Ära die nicht weniger Reiz auf das Publikum und die Band ausübt.</p>
+                <br>
+                <p>
+                    Egal ob kleiner Club, Open Air oder große Halle: Wir sind bereit mit und für Euch das Floyd Universum an den Start zu bringen und jedem Besucher sein stimmungsvolles "floydianisches" Erlebnis zu bereiten.</p>
+                <br>
+                <p>
+                    Eine professionelle Licht und Multimedia Show mit Videoprojektionen auf Leinwand runden das Konzerterlebnis Floyd Division ab und sorgen neben dem Bombast-Sound für ein optisches Highlight
+                </p>
+            </div>
+        </div>
+   
+            <!--<button onclick="buttonForward()">Forward</button>
+    <button onclick="buttonBackward()">Backward</button>-->
+        </div>
+    <!--
+  <div class="container" id="slideshow">
+   <div>
+     <img class="img-responsive" src="img/photo1.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo2.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo3.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo4.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo5.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo6.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo7.png">
+   </div>
+   <div>
+     <img class="img-responsive" src="img/photo8.png">
+   </div>
+  </div>
+-->
+    <footer style="margin-top: 50px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <h4 style="color: red;">ANDREAS PUTZ</h4>
+                            <p>Audio Engineering </p>
+                            <p><a href="www.andreas-putz.com">www.andreas-putz.com</a></p>
+                        </div>
+                        <div class="col-lg-3 col-lg-offset-1">
+                            <img src="https://lms.codefactory.wien/pluginfile.php/1/theme_customtotararesponsive/logo/1502183339/codefactory-vienna-1.png">
+                        </div>
+                        <div class="col-lg-3 col-lg-offset-2">
+                            <p><a href="Impressum.html">Impressum</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
